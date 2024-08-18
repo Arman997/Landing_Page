@@ -5,7 +5,7 @@ function Header() {
     <>
         <header className='header'>
                 
-           <div className='flex flex-row justify-between items-center w-full px-[2%] my-[64px]'>
+           <div className='flex flex-row justify-between items-center w-full px-[2%] py-[64px]'>
 
                 <div className=''><span className='text-[32px]'>MNTN</span></div>
                 

@@ -10,15 +10,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     height: 100%;
-  }
+}
   
-  body {
-    background-image: url('../public/pictures/HG.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+body {
     background-color: #0B1D26;
     color: white;
-  }
+}
+
+/* .div1{
+  background-image: url('../public/pictures/HG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+}
+
+.div2{
+  background-image: url('../public/pictures/MG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+}
+
+.div2{
+  background-image: url('../public/pictures/VG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+} */
+
+
