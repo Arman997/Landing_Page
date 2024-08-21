@@ -5,18 +5,18 @@ function Header() {
     <>
         <header className='header'>
                 
-           <div className='flex flex-row justify-between items-center w-full px-[2%] py-[64px]'>
+           <div className='flex justify-between items-center w-full pt-[64px] px-[2%]'>
 
-                <div className=''><span className='text-[32px]'>MNTN</span></div>
+                <div className=''><span className='text-[32px] font-bold'>MNTN</span></div>
                 
                 <div className='flex gap-[22px]'>
-                    <a className='text-[18px]' href="">Equipment</a>
-                    <a className='text-[18px]' href="">About us</a>
-                    <a className='text-[18px]' href="">Blog</a>
+                    <a className='text-[18px] font-bold' href="">Equipment</a>
+                    <a className='text-[18px] font-bold' href="">About us</a>
+                    <a className='text-[18px] font-bold' href="">Blog</a>
                 </div>
                     
                 <div className=''>
-                    <a className='text-[17px]' href="">Account</a>
+                    <a className='text-[17px] font-bold' href="">Account</a>
                 </div>
     
            </div>
