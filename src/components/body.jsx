@@ -1,11 +1,24 @@
-import React from 'react'
+import {useRef} from 'react'
 import Content from './Content'
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoIosArrowRoundDown } from "react-icons/io";
+import Slider from '../pages/Slider';
 
 
 function Body() {
+
+  const sectionRefs = {
+    Start: useRef(null),
+    '1': useRef(null),
+    '2': useRef(null),
+    '3': useRef(null),
+  };
+
+  const scrollToSection = (section) => {
+    sectionRefs[section].current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className=''>
         
@@ -20,7 +33,11 @@ function Body() {
                   <div className='flex items-center gap-[8px]'><span className='text-[18px] font-bold'>scroll down</span> <IoIosArrowRoundDown className='text-[40px]'/> </div>
             </div>
             
-            <div className=''> Slider </div> 
+            {/* slider */}
+            
+              <div className='flex-shrink-0'>         
+                  <Slider scrollToSection={scrollToSection}/>
+              </div> 
       
       </div> 
 
