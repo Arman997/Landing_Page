@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoIosArrowRoundDown } from "react-icons/io";
 import Slider from '../pages/Slider';
+import Footer from './Footer';
 
 
 function Body() {
@@ -40,10 +41,13 @@ function Body() {
               </div> 
       </div> 
 
-       <div className='py-[1440px] flex flex-col justify-cente items-center'>
-            <Content/>
-       </div>
-        
+      <div className='py-[1440px] flex flex-col justify-center items-center gap-x-48'>
+          <Content/>
+          <div className='bottom-0 w-[1462px] h-[280px]  mt-[100px]'>
+            <Footer/>
+          </div>
+      </div>
+      
     </div>
   )
 }

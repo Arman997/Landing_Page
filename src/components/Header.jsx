@@ -1,4 +1,5 @@
 import React from 'react'
+import { RiAccountCircleLine } from "react-icons/ri";
 
 function Header() {
   return (
@@ -15,7 +16,8 @@ function Header() {
                     <a className='text-[18px] font-bold' href="">Blog</a>
                 </div>
                     
-                <div className=''>
+                <div className='flex items-center gap-[5px]'>
+                    <RiAccountCircleLine className='text-2xl'/>
                     <a className='text-[17px] font-bold' href="">Account</a>
                 </div>
     
