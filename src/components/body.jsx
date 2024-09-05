@@ -35,13 +35,14 @@ function Body() {
             
             {/* slider */}
             
-              <div className='flex-shrink-0'>         
+              <div className='px-[2%]'>         
                   <Slider scrollToSection={scrollToSection}/>
               </div> 
-      
       </div> 
 
-       <Content/>
+       <div className='py-[1440px] flex flex-col justify-cente items-center'>
+            <Content/>
+       </div>
         
     </div>
   )

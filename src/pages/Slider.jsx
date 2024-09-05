@@ -11,7 +11,7 @@ function Slider ({ scrollToSection }) {
   };
 
   return (
-    <div className="fixed right-[2%] top-1/2 transform -translate-y-1/2 flex ">
+    <div className="fixed right-[3%] top-1/2 transform -translate-y-1/2 flex ">
       <div className="relative flex flex-col items-center">
         {sections.map((section) => (
           <button
